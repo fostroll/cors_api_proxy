@@ -14,7 +14,7 @@ Prod mode (use WSGI server):
 python cors_api_proxy prod
 ```
 
-Watch Requests option:
+*Watch Requests* option:
 ```
 python cors_api_proxy watch_reqs
 python cors_api_proxy prod watch_reqs
