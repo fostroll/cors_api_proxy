@@ -23,7 +23,7 @@ The option is used for checking if long requests are still in processing.
 Specifically, it's the only way to know when uploading a file to the
 server have been finished.
 
-To use this function just add uniq *reqid* key to your request. E.g.:
+To use this function just add unique *reqid* key to your request. E.g.:
 ```
 http://proxy_url:port/your_api_link?reqid=<uuid>
 ```
