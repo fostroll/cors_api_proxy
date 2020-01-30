@@ -31,5 +31,5 @@ Then you may check if the request is still in processing:
 ```
 http://proxy_url:port/your_api_link?reqid=<uuid>&test=true
 ```
-If it is still in, you'll get the response with status code **204**. 
-Otherwise, you'll get status **404**.
+If it is still in, you'll get the response with the status code **204**.
+Otherwise, you'll get the status **404**.
