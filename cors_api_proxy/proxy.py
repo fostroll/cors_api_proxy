@@ -1,4 +1,3 @@
-#!/usr/bin/python
 # -*- coding: utf-8 -*-
 
 from flask import Flask, request, Response, stream_with_context
@@ -58,13 +57,3 @@ def proxy (url):
         if reqid:
             remove_req(reqid)
     return res
-
-if __name__ == '__main__':
-    import sys
-    if 'watch_reqs' in sys.argv:
-        watch_reqs = True
-    if 'prod' in sys.argv:
-        app.run(host='0.0.0.0', port=5050, debug=True)
-    else:
-        from wsgiref.simple_server import make_server
-        make_server('localhost', 8000, app).serve_forever()
