@@ -5,9 +5,14 @@ Just one more simple proxy that remove CORS restrictions for api requests
 ## Usage
 
 Dev mode:
-```python cors_api_proxy```
+```
+python cors_api_proxy
+```
+
 Prod mode:
-```python cors_api_proxy prod```
+```
+python cors_api_proxy prod
+```
 
 Watch Requests option:
 ```
