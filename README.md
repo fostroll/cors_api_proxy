@@ -37,5 +37,5 @@ Otherwise, you'll get the status **404**.
 ## License
 
 ***CORS API Proxy*** is released under the Apache License. See the
-[LICENSE](https://github.com/fostroll/morra/blob/master/LICENSE) file for more
-details.
+[LICENSE](https://github.com/fostroll/cors_api_proxy/blob/master/LICENSE) file
+for more details.
