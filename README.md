@@ -33,3 +33,9 @@ http://proxy_url:port/your_api_link?reqid=<uuid>&test=true
 ```
 If it is still in, you'll get the response with the status code **204**.
 Otherwise, you'll get the status **404**.
+
+## License
+
+***CORS API Proxy*** is released under the Apache License. See the
+[LICENSE](https://github.com/fostroll/morra/blob/master/LICENSE) file for more
+details.
