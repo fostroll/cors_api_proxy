@@ -21,7 +21,7 @@ watch_reqs = False
 
 @app.route('/<path:url>', methods=[GET, POST, PUT,
                                    PATCH, DELETE, HEAD, OPTIONS])
-def proxy (url):
+def proxy(url):
     res = reqid = None
     if watch_reqs and request.method != OPTIONS:
         res, reqid, _ = find_req(request)

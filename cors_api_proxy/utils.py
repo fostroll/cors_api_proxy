@@ -1,10 +1,17 @@
 # -*- coding: utf-8 -*-
 
 reqs = set()
-def add_req (req): reqs.add(req)
-def remove_req (req): reqs.discard(req)
-def has_req(req): return req in reqs
-def find_req (request):
+
+def add_req(req):
+    reqs.add(req)
+
+def remove_req(req):
+    reqs.discard(req)
+
+def has_req(req):
+    return req in reqs
+
+def find_req(request):
     res = False
     args = request.args.to_dict(flat=False)
     reqid = args.get('reqid', [None])[0]
